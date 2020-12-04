@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-gap: 30px;
+  background-color: black;
+  padding: 30px;
+}
+
+.grid-container > div {
+  background-color: white;
+  background: url("polog.jpg")no-repeat center fixed;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 50px;
+  color:white;
+}
