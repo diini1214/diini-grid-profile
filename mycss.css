@@ -44,7 +44,13 @@ img {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-
+@media screen and (max-width: 40rem) {
+    .profile {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem 0;
+    }
+   
 
 .profile {
     padding: 5rem 0;
