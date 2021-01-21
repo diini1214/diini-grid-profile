@@ -127,12 +127,6 @@ img {
     height: 100%;
     object-fit: cover;
 }
-@media screen and (max-width: 40rem) {
-    .profile {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 4rem 0;
-    }
 
     .profile::after {
         display: none;
