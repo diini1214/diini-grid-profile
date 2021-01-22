@@ -134,6 +134,7 @@ img {
         flex-wrap: wrap;
         padding: 4rem 0;
     }
+    håller den i sin profil form annars så kommer profil bilden vara över profilen
     .profile::after {
         display: none;
     }
@@ -264,7 +265,7 @@ img {
         .profile-settings-btn,
         .profile-bio,
         .profile-stats {
-            margin: 0;
+            
         }
     }
 }
