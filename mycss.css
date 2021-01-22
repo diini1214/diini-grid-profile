@@ -265,7 +265,7 @@ img {
         .profile-settings-btn,
         .profile-bio,
         .profile-stats {
-            
+         margin: 0;
         }
     }
 }
