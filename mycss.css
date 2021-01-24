@@ -44,7 +44,7 @@ img {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-   
+
 
 .profile {
     padding: 5rem 0;
@@ -63,12 +63,12 @@ img {
     justify-content: center;
     align-items: center;
     margin-right: 3rem;
+    :
 }
 
 .profile-image img {
     border-radius: 50%;
 }
-
 .profile-user-settings,
 .profile-stats,
 .profile-bio {
@@ -110,6 +110,8 @@ img {
     line-height: 1.5;
     margin-right: 4rem;
     cursor: pointer;
+    margin-left: 4rem;
+
 }
 
 .profile-stats li:last-of-type {
@@ -137,6 +139,7 @@ img {
     håller den i sin profil form annars så kommer profil bilden vara över profilen
     .profile::after {
         display: none;
+        margin-right: 4rem;
     }
 
     .profile-image,
@@ -149,6 +152,7 @@ img {
 
     .profile-image img {
         width: 7.7rem;
+
     }
 
     .profile-user-settings {
@@ -214,7 +218,7 @@ img {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: repeat(3, auto);
-        grid-column-gap: 3rem;
+        grid-column-gap: 2rem;
         align-items: center;
     }
 
@@ -265,8 +269,8 @@ img {
         .profile-settings-btn,
         .profile-bio,
         .profile-stats {
-         margin: 0;
+
+
         }
     }
 }
-
